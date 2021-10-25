@@ -9,6 +9,8 @@
     background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
     background-position: center bottom;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -41,4 +43,19 @@
 }
 .contact:hover{
     background-color: turquoise;   
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    flex-grow: 1;
+    color: white;
+    font-weight: bold;
+}
+
+.arrow{
+    margin-top: 60px;
 }
