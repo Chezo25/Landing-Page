@@ -73,6 +73,12 @@
     object-fit: cover;
 }
 
+.section1 .left{
+    width: 75%;
+
+}
+
 .left .right {
     flex: 1;
 }
+
