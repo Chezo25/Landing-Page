@@ -36,4 +36,9 @@
     color: black;
     padding: 4px 10px;
     border-radius: 17px;
+    cursor: pointer;
+    transition: 0.20s all ease-in-out;
+}
+.contact:hover{
+    background-color: turquoise;   
 }
