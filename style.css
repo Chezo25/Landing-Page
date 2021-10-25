@@ -5,7 +5,8 @@
 
 .banner {
     background-color: turquoise;
-    height: 100vh;
+    height: 85vh;
+    min-height: 600px;
     background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
     background-position: center bottom;
     background-size: cover;
