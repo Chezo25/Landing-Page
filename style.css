@@ -74,7 +74,7 @@
 }
 
 .section1 .txt-contain{
-    width: 70%;
+    width: 50%;
 }
 
 .section1 .left {
@@ -117,10 +117,19 @@
 }
 
 .client-image {
-    width:70%;
-    height:70%;
+    width:70px;
+    height:70px;
+    overflow: hidden;
     
 }
 .client-image img{
+    width:85%;
+    height:85%;
     border-radius: 50%;
+    object-fit: cover;
     }    
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+    }
