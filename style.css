@@ -183,3 +183,22 @@
 .examples{
     display: flex;
 }
+
+.examples div{
+    flex: 0.25;
+}
+
+.examples img{
+    
+    width: 100%;
+}
+
+.footer {
+    background-color:#90D4c5;
+    height: 400px;
+    display: flex;
+}
+
+.footer img {
+    color: #2D7465;
+}
