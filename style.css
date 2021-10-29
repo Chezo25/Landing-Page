@@ -116,4 +116,11 @@
     object-fit: cover;
 }
 
+.client-image {
+    width:70%;
+    height:70%;
     
+}
+.client-image img{
+    border-radius: 50%;
+    }    
