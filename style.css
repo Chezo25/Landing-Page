@@ -136,6 +136,7 @@
         background-color: #fffbf8;
         padding-top: 50px;
         padding-bottom: 50px;
+        
     }
 
 .testimonials h1 {
@@ -147,6 +148,7 @@
 
     .clients{
         display: flex;
+        justify-content: space-between;
     }
 
     .client2, .client1{
@@ -154,6 +156,8 @@
         flex-direction: column;
         flex: 0.4;
         align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }    
     .clients .client-image {
     margin-bottom: 30px;
@@ -169,4 +173,13 @@
 
     .client1 .details, .client2 .details {
     text-align: center;
+}
+
+.clients h4{
+    color: #A0A1A2; 
+    margin-top: 8px;
+}
+
+.examples{
+    display: flex;
 }
